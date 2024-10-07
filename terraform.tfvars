@@ -1,0 +1,17 @@
+vcd_url        = "https://dama-vcdportal.mobily.com.sa/api"
+org            = "KFSH"
+vdc            = "KFSH-OVDC"
+user           = "kfsh_admin"
+password       = "s3HC5K2XwW2A"
+vm_name_prefix = "mongo"
+vm_count       = 2
+network_name   = "Test Network"
+os_image_name  = "reddhat-8.6-test22"
+vm_memory      = 2048
+vm_cpus        = 2
+disk_size      = 10
+sudo_user      = "Devops"
+sudo_password  = "Devops@123"
+root_password  = "Devops@123"
+static_ips     = ["10.20.1.10", "10.20.1.11"]
+app_name       = "Mongo-DB"
